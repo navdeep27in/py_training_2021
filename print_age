@@ -1,7 +1,7 @@
 a=int(input("Enter your age: "))
 if a<18:
     print("you are a child")
-elif 18<a and a<40:
+elif 18<a<40:
     print("you are young")
 else:
     print("you are old")
