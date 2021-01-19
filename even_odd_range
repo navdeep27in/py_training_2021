@@ -1,5 +1,5 @@
 x=int(input("enter a number between 300 and 400: "))
-if x>300 and 400<x:
+if x<300 or 400<x:
     print ("Enter number in specified range")
 elif (x % 2) == 0:
     print ("Number is even")
